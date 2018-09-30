@@ -15,7 +15,8 @@ if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     n = int(input())
-    if n in range (2,13): result = factorial(n)
+    if n in range (2,13):
+        result = factorial(n)
 
     fptr.write(str(result) + '\n')
 
