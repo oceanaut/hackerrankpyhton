@@ -1,4 +1,9 @@
+#!/bin/python3
+
+#Task
+#Complete the code in the editor below. The variables , , and are already declared and initialized for you.
 #https://www.hackerrank.com/challenges/30-data-types/problem
+
 i = 4
 d = 4.0
 s = 'HackerRank '
