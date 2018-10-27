@@ -4,8 +4,7 @@
 
 if __name__ == '__main__':
     #Replace all ______ with rjust, ljust or center.
-    #thickness = int(input()) #This must be an odd number
-    thickness =5
+    thickness = int(input()) #This must be an odd number
     c = 'H'
     #Top Cone
     for i in range(thickness):
