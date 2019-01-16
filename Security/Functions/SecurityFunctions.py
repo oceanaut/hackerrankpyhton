@@ -13,7 +13,6 @@ def calculate(x):
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     x = int(input())
 
     result = calculate(x)
