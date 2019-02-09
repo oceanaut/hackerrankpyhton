@@ -1,0 +1,11 @@
+#!/bin/python3
+
+"""
+https://www.hackerrank.com/challenges/calendar-module/problem
+"""
+import calendar
+
+if __name__ == '__main__':
+    n1, n2, n3 = map(int, input().split())
+    print((calendar.day_name[calendar.weekday(n3, n1, n2)]).upper())
+
